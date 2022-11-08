@@ -42,8 +42,8 @@ public class TelaLivrosViewModel {
 
     public void updateList() {
         livros.clear();
-        System.out.println("BUSCAR DO BANCO DE DADOS");
-        alertProperty.setValue(Result.fail("Ainda não foi implementado!!"));
+        
+        alertProperty.setValue(Result.fail("BUSCAR DO BANCO DE DADOS"));
 
     }
 
@@ -57,11 +57,11 @@ public class TelaLivrosViewModel {
         Integer paginas = Integer.valueOf(sPaginas);
         Integer anoPublicacao = Integer.valueOf(sAnoPublicacao);
 
-        System.out.println("INSERIR NO BANCO DE DADOS!!!");
+        
 
         limpar();
 
-        alertProperty.setValue(Result.fail("Ainda não foi implementado!!"));
+        alertProperty.setValue(Result.fail("INSERIR NO BANCO DE DADOS!!!"));
     }
 
     public void limpar() {
